@@ -12,4 +12,4 @@ Pull requests welcome!
 [![npm version](https://img.shields.io/npm/v/@yumyumswap/swap-sdk/latest.svg)](https://www.npmjs.com/package/@yumyumswap/swap-sdk/v/latest)
 [![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/@yumyumswap/swap-sdk/latest.svg)](https://bundlephobia.com/result?p=@yumyumswap/swap-sdk@latest)
 
-In-depth documentation on this SDK is available at [uniswap.org](https://docs.uniswap.org/).
+In-depth documentation on this SDK is available at [yumyumswap.com](https://docs.yumyumswap.com/).
