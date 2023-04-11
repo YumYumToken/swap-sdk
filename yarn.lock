@@ -1546,31 +1546,10 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@uniswap/swap-router-contracts@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/swap-router-contracts/-/swap-router-contracts-1.2.1.tgz#223c8b6672b7754080d95ca917763d98feb5e696"
-  integrity sha512-aRNiZYIOpJ0uYxujPxvQsUEuNJWLC4bvnmU40TlNej1rGWHPyDL1PmnVzebu8UpW9EGeKlvDjsNGTyo53dih9Q==
-  dependencies:
-    "@openzeppelin/contracts" "3.4.2-solc-0.7"
-    "@uniswap/v2-core" "1.0.1"
-    "@uniswap/v3-core" "1.0.0"
-    "@uniswap/v3-periphery" "1.4.1"
-    dotenv "^14.2.0"
-    hardhat-watcher "^2.1.1"
-
 "@uniswap/v2-core@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
   integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
-
-"@uniswap/v3-staker@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/v3-staker/-/v3-staker-1.0.0.tgz#9a6915ec980852479dfc903f50baf822ff8fa66e"
-  integrity sha512-JV0Qc46Px5alvg6YWd+UIaGH9lDuYG/Js7ngxPit1SPaIP30AlVer1UYB7BRYeUVVxE+byUyIeN5jeQ7LLDjIw==
-  dependencies:
-    "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
-    "@uniswap/v3-core" "1.0.0"
-    "@uniswap/v3-periphery" "^1.0.1"
 
 "@yumyumswap/contract-core@1.0.0", "@yumyumswap/contract-core@1.0.1":
   version "1.0.1"
@@ -1587,6 +1566,27 @@
     "@uniswap/v2-core" "1.0.1"
     "@yumyumswap/contract-core" "1.0.1"
     base64-sol "1.0.1"
+
+"@yumyumswap/contract-staker@1.0.0":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-staker/-/contract-staker-1.0.2.tgz#13870db86afc4b6c7788b8dbee316f143ca17909"
+  integrity sha512-ohVvEhvUa4SxPVJuf0inmz0OTNULHPp/chvmApS9a8mD39czD3M4JPq8voBjbpShd1KCanZ/EFzXoCUU9aBiyw==
+  dependencies:
+    "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
+    "@yumyumswap/contract-core" "1.0.0"
+    "@yumyumswap/contract-periphery" "^1.0.1"
+
+"@yumyumswap/swap-router-contracts@^1.2.1":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/swap-router-contracts/-/swap-router-contracts-1.3.0.tgz#6cb098ea7df602a247822063d303c44f89890053"
+  integrity sha512-KX9Y5YxsE6e29AcnNY7F7j3JzBB3u0s83YsnTWAQv3u2coPTGfa6g8jv6AzOi7ikl5zbtLtASW9XlAtmHAG2cQ==
+  dependencies:
+    "@openzeppelin/contracts" "3.4.2-solc-0.7"
+    "@uniswap/v2-core" "1.0.1"
+    "@yumyumswap/contract-core" "1.0.0"
+    "@yumyumswap/contract-periphery" "1.4.1"
+    dotenv "^14.2.0"
+    hardhat-watcher "^2.1.1"
 
 abab@^2.0.0:
   version "2.0.5"
