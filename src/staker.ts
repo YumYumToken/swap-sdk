@@ -1,4 +1,4 @@
-import { BigintIsh, Token, validateAndParseAddress } from '@uniswap/sdk-core'
+import { BigintIsh, Token, validateAndParseAddress } from '@yumyumswap/sdk-core'
 import { MethodParameters, toHex } from './utils/calldata'
 import { defaultAbiCoder, Interface } from '@ethersproject/abi'
 import IYumyumSwapStaker from '@yumyumswap/contract-staker/artifacts/contracts/YumyumSwaptaker.sol/YumyumSwapStaker.json'
