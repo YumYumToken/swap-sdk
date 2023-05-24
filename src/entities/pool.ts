@@ -1,7 +1,7 @@
-import { BigintIsh, CurrencyAmount, Price, Token } from '@yumyumswap/sdk-core'
+import { BigintIsh, CurrencyAmount, Price, SupportedChainId, Token } from '@yumyumswap/sdk-core'
 import JSBI from 'jsbi'
 import invariant from 'tiny-invariant'
-import { FACTORY_ADDRESS, FeeAmount, TICK_SPACINGS } from '../constants'
+import { FACTORY_ADDRESS, FACTORY_ADDRESSES, FeeAmount, TICK_SPACINGS } from '../constants'
 import { NEGATIVE_ONE, ONE, Q192, ZERO } from '../internalConstants'
 import { computePoolAddress } from '../utils/computePoolAddress'
 import { LiquidityMath } from '../utils/liquidityMath'
@@ -49,7 +49,8 @@ export class Pool {
     factoryAddressOverride?: string
   ): string {
     return computePoolAddress({
-      factoryAddress: factoryAddressOverride ?? FACTORY_ADDRESS,
+      factoryAddress:
+        factoryAddressOverride ?? FACTORY_ADDRESSES[tokenA.chainId as SupportedChainId] ?? FACTORY_ADDRESS,
       fee,
       tokenA,
       tokenB,

@@ -14,7 +14,7 @@ describe('#computePoolAddress', () => {
       tokenB
     })
 
-    expect(result).toEqual('0x90B1b09A9715CaDbFD9331b3A7652B24BfBEfD32')
+    expect(result).toEqual('0x012898E0129BeAD9f05D83094b6a2Fe98e800C90')
   })
 
   it('should correctly compute the pool address', () => {
