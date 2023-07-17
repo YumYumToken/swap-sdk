@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "4.0.1",
+  "version": "5.0.1",
   "description": "⚒️ An SDK for building applications on top of YumYumSwap",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -26,16 +26,16 @@
   "dependencies": {
     "@ethersproject/abi": "^5.0.12",
     "@ethersproject/solidity": "^5.0.9",
-    "@yumyumswap/sdk-core": "^4.0.1",
-    "@yumyumswap/swap-router-contracts": "^4.0.1",
-    "@yumyumswap/contract-periphery": "^4.0.2",
-    "@yumyumswap/contract-staker": "^4.0.1",
+    "@yumyumswap/sdk-core": "^5.0.2",
+    "@yumyumswap/swap-router-contracts": "^5.0.1",
+    "@yumyumswap/contract-periphery": "^5.0.2",
+    "@yumyumswap/contract-staker": "^5.0.1",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.3"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
-    "@yumyumswap/contract-core": "4.0.1",
+    "@yumyumswap/contract-core": "5.0.1",
     "tsdx": "^0.14.1"
   },
   "engines": {

@@ -3,6 +3,7 @@ import { SupportedChainId } from '@yumyumswap/sdk-core'
 export const FACTORY_ADDRESS = '0xB79E08735DDE71B58A489d7f1e8CF7f97402c5e0'
 export const FACTORY_ADDRESSES: { [chainId in SupportedChainId]: string } = {
   [SupportedChainId.BASE_GOERLI]: '0xB79E08735DDE71B58A489d7f1e8CF7f97402c5e0',
+  [SupportedChainId.BASE]: '0xf6C96aC4251905572c7083B1804825850B9BC9e6',
   [SupportedChainId.PULSE]: '0x06393b72873077c523ed10B3Db69087875AF61ef',
   [SupportedChainId.MAINNET]: FACTORY_ADDRESS,
   [SupportedChainId.GOERLI]: FACTORY_ADDRESS,

@@ -1539,39 +1539,39 @@
   resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
   integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
 
-"@yumyumswap/contract-core@4.0.1", "@yumyumswap/contract-core@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-core/-/contract-core-4.0.1.tgz#a43db2a33c0ed5369e693581eaf1dcbe257cbf68"
-  integrity sha512-wNsf1SHs0mxb7ErI25Tou1yayJe3Ds6qm/uyuJXgodsE3AZYEsjUTuSYvS5tP+/Npc6NYnEKNLixLOeIQvwg6Q==
+"@yumyumswap/contract-core@5.0.1", "@yumyumswap/contract-core@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-core/-/contract-core-5.0.1.tgz#b9359674b335eef60525493ec60a696a3841208f"
+  integrity sha512-Lso9DJeIlD7+ve9J4BO1XNW1RAXN39FLQZArBCl7HjxGcDN9QfsvDmFV20r3Bt5eyKpQSapjkIz/5XQfr9MdFQ==
   dependencies:
     dotenv "^16.0.3"
 
-"@yumyumswap/contract-periphery@4.0.2", "@yumyumswap/contract-periphery@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-periphery/-/contract-periphery-4.0.2.tgz#e8ebcb5c58435020047c9ce66e8ff79e18c940cf"
-  integrity sha512-+9s2muTj8eabniseyeJ+VXNoNjkVzPlPzCNQrZ8q8swg41ikDVc+RYHm82fGtP9W1aiSg+1ZRJyIdvi5O08v3g==
+"@yumyumswap/contract-periphery@5.0.2", "@yumyumswap/contract-periphery@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-periphery/-/contract-periphery-5.0.2.tgz#3c4fa35f584533c5f40de9d1aa6c04bc1e155adc"
+  integrity sha512-6ug6deF3X+6rEVlnYYZ0fmCL/Ra6jIMqORfyrKKArbXNHH81G0dlDzlTQvQ84/2LK61rf2GQ4YWjxZsY35uA6Q==
   dependencies:
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
     "@uniswap/lib" "^4.0.1-alpha"
     "@uniswap/v2-core" "1.0.1"
-    "@yumyumswap/contract-core" "4.0.1"
+    "@yumyumswap/contract-core" "5.0.1"
     base64-sol "1.0.1"
     dotenv "^16.0.3"
 
-"@yumyumswap/contract-staker@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-staker/-/contract-staker-4.0.1.tgz#3051aa05d1f13f0d44a67e1444128151fbefb6ed"
-  integrity sha512-kc8aYXbLvP6RQU2ieERVdQOz/QjgSl/g1aN+7RtrZy5nHX8eqAWVBYYukdWh6uQZvHakc8e/2i3Se7o80fG2oA==
+"@yumyumswap/contract-staker@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/contract-staker/-/contract-staker-5.0.1.tgz#1843308a0aaf6c0765b37e682f651a3fdf40cf9d"
+  integrity sha512-OsGeJlWOWt071gq1f9jShtddVwHbWWG6pFozcfATj25Nujo6vlMXe3jRdddpZaJZUe6fwe3AyhX7wTMPMir0+Q==
   dependencies:
     "@openzeppelin/contracts" "3.4.1-solc-0.7-2"
-    "@yumyumswap/contract-core" "^4.0.1"
-    "@yumyumswap/contract-periphery" "^4.0.2"
+    "@yumyumswap/contract-core" "^5.0.1"
+    "@yumyumswap/contract-periphery" "^5.0.2"
     dotenv "^16.0.3"
 
-"@yumyumswap/sdk-core@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/sdk-core/-/sdk-core-4.0.1.tgz#05abb120bc1051afac9fe0910bce57544d61da97"
-  integrity sha512-zfGxZuNWirEeCDIifND58VBgr5OhFjB0abZnO6LWs0P1nDwrUn2Sste2Mk7jhDArBE3lXzXQh0BGSEQ5FIPlMA==
+"@yumyumswap/sdk-core@^5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/sdk-core/-/sdk-core-5.0.2.tgz#29b18faba969fe84cbc155afaa44cc66a363af53"
+  integrity sha512-19ccJMtZGzcknWDEwDfL+vZcUinhORnIF80FgtSD1v19xS0o6m/rQFzosW3I5fZE6wxb+1jXtc46yKLA56Yocw==
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -1580,15 +1580,15 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@yumyumswap/swap-router-contracts@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@yumyumswap/swap-router-contracts/-/swap-router-contracts-4.0.1.tgz#4ae2163779f0ecd9810a217463099218aad791f4"
-  integrity sha512-GKxti/N93HW/6bqZnVChP3LkS9HfZ/Zms2fRs+dvHIIHng2fBnvWhfKDl5JgCFVhhEZx1yguAzRr8HsdJF8nVA==
+"@yumyumswap/swap-router-contracts@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@yumyumswap/swap-router-contracts/-/swap-router-contracts-5.0.1.tgz#555b6ed42f0b2e21e3237aa3b898a0f639bbd72a"
+  integrity sha512-dlC+A/H+2skWxYZaiQGex59ZrMRIUdPk6UO6bkr/wtWjLRL1s3Xnol0WvLXcAV5CEjT+H0ZAHTeg+U4PMJhrTA==
   dependencies:
     "@openzeppelin/contracts" "3.4.2-solc-0.7"
     "@uniswap/v2-core" "1.0.1"
-    "@yumyumswap/contract-core" "^4.0.1"
-    "@yumyumswap/contract-periphery" "4.0.2"
+    "@yumyumswap/contract-core" "^5.0.1"
+    "@yumyumswap/contract-periphery" "5.0.2"
     dotenv "^14.2.0"
     hardhat-watcher "^2.1.1"
 
